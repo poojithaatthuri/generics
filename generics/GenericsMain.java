@@ -12,7 +12,7 @@ public class GenericsMain {
 
     }
 
-    private String testMaxium(float v, float v1, float v2) {
+    String testMaxium(int v, int v1, int v2) {
         String o = null;
         return o;
     }
