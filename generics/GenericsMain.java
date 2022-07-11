@@ -5,14 +5,18 @@ public class GenericsMain {
     public static void main(String[] args) {
         System.out.println("Welcome1 to generics");
         //UC1 find maximum of three Integers
+        //UC2 find maximum of three Integers
         GenericsMain genericClass = new GenericsMain();
-        Integer printValue = genericClass.testMaxium(1, 7, 4);
-        System.out.println("The Maximum integer is : " + printValue);
+        System.out.println("The Maximum Integer is : " + genericClass.testMaxium(1, 7, 4));
+        System.out.println("The Maximum Float is : " + genericClass.testMaxium(1.3f, 4.5f, 7.7f));
+
     }
 
-    private Integer testMaxium(int i, int i1, int i2) {
-        return null;
+    private String testMaxium(float v, float v1, float v2) {
+        String o = null;
+        return o;
     }
+
 }
 
 
